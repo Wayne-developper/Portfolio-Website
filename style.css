@@ -192,12 +192,15 @@ span{
 .typing-text{
     font-size: 34px;
     font-weight: 600;
-    min-width: 550px;
 }
 
 .typing-text span{
     position: relative;
     display: inline-block;
+}
+
+.keep-together {
+    white-space: nowrap;
 }
 
 .typing-text span::before{
